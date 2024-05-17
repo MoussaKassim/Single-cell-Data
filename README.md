@@ -397,7 +397,7 @@ plot(res_KODAMA_tSNE,pch=21,bg=ta[,"cluster_color"],main="KODAMA", xlab= "First 
     <p>The KODAMA clustering are then visualized</p>
 
     <p align="center">
-        <img src="https://github.com/tkcaccia/KODAMA/blob/main/figures/final%20single%20cell%20kodama.png" alt="KODAMA Visualization" height="500" width="500" />
+        <img src="https://gist.github.com/assets/168087487/ecb08dea-0c8d-4822-83fc-8cb406ff9a4c" alt="KODAMA Visualization" height="500" width="500" />
     </p>
 
     <script>
