@@ -4,29 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single-cell Data</title>
+    <title>KODAMA</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         /* Font Family and Size */
-        body, .navbar-nav .nav-link {
+        body,
+        .navbar-nav .nav-link {color: #ffffff;
+        .navbar-nav .nav-link {
             font-family: "Source Sans Pro", Arial, sans-serif;
             font-size: 16px;
             color: #ffffff;
-        }
-        
+            background-color: ;
+        }}
+         
         /* Navbar Styles */
         .navbar {
             position: fixed;
             top: 0;
-            left: 0;
+            left: 0cm;
             right: 0;
             z-index: 500;
             background-color: #333333;
             padding-top: 0;
             padding-bottom: 0;
             height: 50px;
-            width: 100%;
+            width: calc(100%);
         }
 
         .navbar-brand {
@@ -34,17 +37,29 @@
         }
 
         .navbar-nav .nav-item {
-            margin-bottom: 4px;
+            margin-bottom: 04px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 109px 109px rgba(0, 0, 0, 0);
         }
 
         .navbar-nav .nav-link {
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+        }
+
+        .navbar-nav .nav-item:nth-child(1) {
+            margin-top: 20px;
+        }
+
+        .navbar-nav .nav-item:nth-child(2) {
+            margin-top: 20px;
+        }
+
+        .navbar-nav .nav-item:nth-child(3) {
+            margin-top: 20px;
         }
 
         .navbar-nav .nav-item:nth-child(4) {
@@ -58,10 +73,11 @@
         }
 
         .container {
-            padding-left: 8.5cm;
+            padding-left: 7.3cm;
         }
 
-        .navbar-brand, .navbar-nav .nav-link {
+        .navbar-brand,
+        .navbar-nav .nav-link {
             padding: 0.1px 1rem;
             text-decoration: none;
             display: inline-block;
@@ -74,19 +90,20 @@
             display: block;
         }
 
-        .navbar-brand:hover, .navbar-nav .nav-link:hover {
+        .navbar-brand:hover,
+        .navbar-nav .nav-link:hover {
             text-decoration: none;
         }
 
         .navbar-nav {
             display: flex;
             align-items: center;
-            margin-left: 5px;
+            margin-left: 05px;
         }
 
         /* Body padding to compensate for fixed navbar */
         body {
-            padding-top: 50px;
+            padding-top: 0cm;
             background-color: #ffffff;
             color: #333;
             margin: 0;
@@ -100,7 +117,7 @@
             left: 9.5cm;
             width: 180%;
             max-width: 260px;
-            max-height: 17%;
+            max-height: 19%;
             overflow-y: auto;
             box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.0);
             padding: 5px;
@@ -122,7 +139,7 @@
         }
 
         #sidebar ul li:hover {
-            background-color: none;
+            background-color: #none;
         }
 
         #sidebar ul li a {
@@ -138,7 +155,7 @@
 
         /* Main Content Styles */
         .container {
-            margin-left: 0.2cm;
+            margin-left: 1.5cm;
         }
 
         /* Sections Styles */
@@ -198,69 +215,13 @@
         button.copied:hover {
             color: #218838;
         }
+    
 
-        .card {
-            transition: transform 0.3s;
-            border: none;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            background-color: #fff;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        .card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-        }
-
-        .code-container {
-            background-color: #f4f4f4;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 10px;
-            margin-bottom: 20px;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-        }
-
-        h2, h3 {
-            color: #333;
-        }
-
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-
-        .code-container {
-            position: relative;
-            display: inline-block;
-        }
-
-        .copy-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            cursor: pointer;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 5px;
-        }
     </style>
 </head>
 
 <body>
-    <!-- Navbar -->
+        <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">KODAMA</a>
@@ -272,7 +233,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#introduction">Introduction</a>
+                        <a class="nav-link" href="https://moussakassim.github.io/KODAMA1/">Introduction</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#software-tutorial">Software Tutorial</a>
@@ -309,7 +270,7 @@
             </div>
         </div>
     </nav>
-
+   
     <!-- Sidebar -->
     <div id="sidebar">
         <ul>
@@ -319,11 +280,12 @@
                     <span>Single-cell data</span>
                 </a>
             </li>
-            <li id="TutorialLink" data-toggle="tooltip" data-placement="right" title="Tutorial">
-                <a href="#Tutorial">
-                    <i class="fas fa-newspaper"></i>
-                    <span>Tutorial</span>
+            <li id="kodamaLink" data-toggle="tooltip" data-placement="right" title="Installation">
+                <a href="#Installation">
+                    <i class="fas fa-book-open"></i>
+                    <span>Installation</span>
                 </a>
+            </li>
             </li>
         </ul>
     </div>
@@ -356,15 +318,14 @@
             });
         });
     </script>
-
-    <!-- Main Content -->
+       <!-- Main Content -->
     <div>
     <!-- Single-cell data Section -->
         <section id="Single-cell data" class="data-section">
             <div class="container">
     <h2>Single-cell data</h2>
     <p>The data set from Tasic et al. encompasses 23,822 cells from adult mouse cortex, split by the authors into 133 clusters with strong hierarchical organisation. A standard preprocessing pipeline consisting of sequencing depth normalisation, feature selection, log-transformation, and reducing the dimensionality to 50 PCs was applied as described by Kobak & Berens in <a href="https://www.nature.com/articles/s41467-019-13056-x" target="_blank">The art of using t-SNE for single-cell transcriptomics</a>.</p>
-
+ </div>
 <!-- Tutorial data Section -->
         <section id="Tutorial" class="data-section">
             <div class="container">
@@ -440,17 +401,38 @@ plot(res_KODAMA_tSNE,pch=21,bg=ta[,"cluster_color"],main="KODAMA", xlab= "First 
     </p>
 
     <script>
-        function copyCode(button) {
-            const codeContainer = button.previousElementSibling;
-            const code = codeContainer.innerText;
-            navigator.clipboard.writeText(code).then(() => {
-                button.innerText = "Copied!";
+        $(document).ready(function () {
+            $('.copy-btn').on('click', function () {
+                var $temp = $("<input>");
+                $("body").append($temp);
+                $temp.val($(this).siblings('pre').text()).select();
+                document.execCommand("copy");
+                $temp.remove();
+
+                // Change the button appearance when copied
+                $(this).addClass('copied');
                 setTimeout(() => {
-                    button.innerText = "Copy";
+                    $(this).removeClass('copied');
                 }, 2000);
             });
-        }
-    </script>
 
+            // Highlight active section in the sidebar
+            $('body').scrollspy({ target: '#sidebar', offset: 100 });
+
+            // Smooth scrolling for sidebar links
+            $('#sidebar ul li a').on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>
