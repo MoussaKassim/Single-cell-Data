@@ -286,7 +286,6 @@
                     <span>Installation</span>
                 </a>
             </li>
-            </li>
         </ul>
     </div>
      <script>
