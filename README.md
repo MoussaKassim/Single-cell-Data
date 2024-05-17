@@ -117,7 +117,7 @@
             left: 9.5cm;
             width: 180%;
             max-width: 260px;
-            max-height: 19%;
+            max-height: 10%;
             overflow-y: auto;
             box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.0);
             padding: 5px;
@@ -398,6 +398,13 @@ plot(res_KODAMA_tSNE,pch=21,bg=ta[,"cluster_color"],main="KODAMA", xlab= "First 
     <p align="center">
         <img src="https://gist.github.com/assets/168087487/ecb08dea-0c8d-4822-83fc-8cb406ff9a4c" alt="KODAMA Visualization" height="500" width="500" />
     </p>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 
     <script>
         $(document).ready(function () {
