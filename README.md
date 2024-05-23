@@ -398,6 +398,7 @@ plot(res_KODAMA_tSNE,pch=21,bg=ta[,"cluster_color"],main="KODAMA", xlab= "First 
     <p align="center">
         <img src="https://gist.github.com/assets/168087487/ecb08dea-0c8d-4822-83fc-8cb406ff9a4c" alt="KODAMA Visualization" height="500" width="500" />
     </p>
+      </div>
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
